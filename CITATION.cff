@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite the paper it reproduces (see
+  preferred-citation). To cite the exact version of the software used, cite the
+  corresponding release or its Zenodo DOI.
+title: landfill-gas-bitcoin-model
+abstract: >-
+  Open-source Python reproduction of the Monte Carlo landfill gas-to-energy and
+  Bitcoin mining model of Rudd et al. (2024, Journal of Cleaner Production),
+  originally implemented in Lumina Analytica. Reproduces the published landfill
+  derivation, financial-performance tables, and emissions-mitigation estimates,
+  and extends the model with a parasitic-split allocation, a miner-to-landfill
+  revenue ratio with loss probabilities, and a current-generation ASIC catalog.
+type: software
+authors:
+  - family-names: Rudd
+    given-names: Murray A.
+    orcid: "https://orcid.org/0000-0001-9533-5070"
+    website: "https://murrayrudd.pro/"
+version: 1.0.0
+date-released: "2026-07-11"
+license: MIT
+repository-code: "https://github.com/murrayrudd/landfill-gas-bitcoin-model"
+url: "https://github.com/murrayrudd/landfill-gas-bitcoin-model"
+keywords:
+  - Bitcoin mining
+  - landfill gas
+  - methane mitigation
+  - Monte Carlo
+  - techno-economic model
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "An integrated landfill gas-to-energy and Bitcoin mining framework"
+  authors:
+    - family-names: Rudd
+      given-names: Murray A.
+      orcid: "https://orcid.org/0000-0001-9533-5070"
+    - family-names: Jones
+      given-names: Matthew
+    - family-names: Sechrest
+      given-names: Daniel
+    - family-names: Batten
+      given-names: Daniel
+    - family-names: Porter
+      given-names: Dennis
+  journal: "Journal of Cleaner Production"
+  volume: 472
+  year: 2024
+  doi: "10.1016/j.jclepro.2024.143516"
+  url: "https://ssrn.com/abstract=4810964"
+  notes: "Article number 143516."
